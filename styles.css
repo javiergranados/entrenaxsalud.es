@@ -1,0 +1,23 @@
+html {
+  background-size: cover;
+  background: #004aad;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  top: 20%;
+  left: 50%;
+  position: fixed;
+  color: #ffffff;
+  text-align: center;
+  transform: translate(-50%, -20%);
+}
+span {
+  color: #ffde59;
+  font-size: 0.8rem;
+}
