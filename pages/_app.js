@@ -1,11 +1,11 @@
-import '../styles/globals.css'
-import "../components/styles/App.css";
 import Meta from '../components/Meta'
+import GlobalStyle from '../styles/GlobalStyle';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Meta/>
+      <GlobalStyle />
       <Component {...pageProps} />
     </>
   )
