@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export default styled.div`
   top: 20%;
@@ -16,4 +16,4 @@ export default styled.div`
     font-size: 1rem;
     color: var(--mustard);
   }
-`;
+`

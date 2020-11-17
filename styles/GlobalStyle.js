@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   :root {
@@ -55,6 +55,6 @@ const GlobalStyle = createGlobalStyle`
     text-shadow: none;
     background: var(--bluePurple);
   }
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle
