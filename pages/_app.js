@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types'
 import Meta from '../components/Meta'
-import GlobalStyle from '../styles/GlobalStyle'
+import '../styles/globals.css'
+import '../styles/tailwind.css'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Meta />
-      <GlobalStyle />
       {/* eslint-disable-next-line */}
       <Component {...pageProps} />
     </>

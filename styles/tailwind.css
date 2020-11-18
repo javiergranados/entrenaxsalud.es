@@ -1,0 +1,18 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* purgecss end ignore */
+
+@font-face {
+  font-family: 'hind-siliguri-regular';
+  font-weight: 400;
+  src: url('/fonts/HindSiliguri-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'hind-siliguri-semi';
+  font-weight: 600;
+  src: url('/fonts/HindSiliguri-SemiBold.ttf');
+}
