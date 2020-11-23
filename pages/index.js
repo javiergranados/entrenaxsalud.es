@@ -1,7 +1,7 @@
 function IndexPage() {
   return (
     <>
-      <p className="text-3xl">Página de inicio</p>
+      <p className="text-3xl text-cobaltBlue">Próximamente...</p>
     </>
   )
 }
