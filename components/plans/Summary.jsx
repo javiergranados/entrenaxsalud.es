@@ -7,7 +7,7 @@ function Summary() {
 
   return (
     <div className="container mx-auto text-center">
-      <h1 className="py-5 text-2xl font-semi text-cobaltBlueDark">PLANES DE PRECIOS</h1>
+      <h1 className="py-5 text-2xl font-bold text-cobaltBlueDark">PLANES DE PRECIOS</h1>
       <button
         value="month"
         type="button"

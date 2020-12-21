@@ -17,6 +17,12 @@
   src: url('/fonts/HindSiliguri-SemiBold.ttf');
 }
 
+@font-face {
+  font-family: 'hind-siliguri-bold';
+  font-weight: 700;
+  src: url('/fonts/HindSiliguri-Bold.ttf');
+}
+
 .navbar__button {
   @apply max-w-full px-0 py-2 mx-4 transition duration-300 ease-in-out outline-none text-cobaltBlue;
 }

@@ -20,6 +20,7 @@ module.exports = {
       fontFamily: {
         regular: ['hind-siliguri-regular'],
         semi: ['hind-siliguri-semi'],
+        bold: ['hind-siliguri-bold'],
       },
       screens: {
         mobileS: '320px',
