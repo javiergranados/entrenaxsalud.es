@@ -1,10 +1,4 @@
-function PlanPage() {
-  return (
-    <>
-      <p className="text-3xl text-cobaltBlue">Página de planes</p>
-    </>
-  )
-}
+import Plans from '../components/plans/Plans'
 
 export async function getStaticProps() {
   return {
@@ -14,4 +8,4 @@ export async function getStaticProps() {
   }
 }
 
-export default PlanPage
+export default Plans

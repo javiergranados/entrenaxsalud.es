@@ -25,6 +25,28 @@
   @apply text-white bg-none;
 }
 
+.price-button {
+  @apply items-center px-6 py-4 text-base transition-all border-none min-w-165 text-cobaltBlue bg-gainsBoro font-regular;
+}
+
+.price-button:focus {
+  @apply outline-none;
+}
+
+.price-button:active,
+.price-button:hover {
+  @apply text-white bg-silver;
+}
+
+.price-button.selected {
+  @apply text-white bg-glaucous;
+}
+
+.price-button.selected:active,
+.price-button.selected:hover {
+  @apply bg-cobaltBlue;
+}
+
 @screen lg {
   .navbar__button {
     @apply p-4;
