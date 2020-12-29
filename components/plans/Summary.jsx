@@ -28,6 +28,11 @@ function Summary() {
       >
         PAGO ANUAL
       </button>
+      <div className="grid items-center gap-12 mt-20 grid-cols-mobile lg:grid-cols-desktop">
+        <p>My plan</p>
+        <p>My plan</p>
+        <p>My plan</p>
+      </div>
     </div>
   )
 }
