@@ -17,12 +17,40 @@
   src: url('/fonts/HindSiliguri-SemiBold.ttf');
 }
 
+@font-face {
+  font-family: 'hind-siliguri-bold';
+  font-weight: 700;
+  src: url('/fonts/HindSiliguri-Bold.ttf');
+}
+
 .navbar__button {
   @apply max-w-full px-0 py-2 mx-4 transition duration-300 ease-in-out outline-none text-cobaltBlue;
 }
 
 .navbar__button:target {
   @apply text-white bg-none;
+}
+
+.price-button {
+  @apply items-center px-6 py-4 text-base transition-all border-none min-w-165 text-cobaltBlue bg-gainsBoro font-regular;
+}
+
+.price-button:focus {
+  @apply outline-none;
+}
+
+.price-button:active,
+.price-button:hover {
+  @apply text-white bg-silver;
+}
+
+.price-button.selected {
+  @apply text-white bg-glaucous;
+}
+
+.price-button.selected:active,
+.price-button.selected:hover {
+  @apply bg-cobaltBlue;
 }
 
 @screen lg {
