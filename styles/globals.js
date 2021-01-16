@@ -2,14 +2,14 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 :root {
-  --cobaltBlue: '#004aad';
-  --cobaltBlueDark: '#002352';
-  --cultured: '#f7f7f7';
-  --gainsBoro: '#e5e5ea';
-  --ghostWhite: '#f5f8fb';
-  --glaucous: '#517edb';
-  --mustard: '#ffde59';
-  --silver: '#c7c7cc';
+  --cobaltBlue: #004aad;
+  --cobaltBlueDark: #002352;
+  --cultured: #f7f7f7;
+  --gainsBoro: #e5e5ea;
+  --ghostWhite: #f5f8fb;
+  --glaucous: #517edb;
+  --mustard: #ffde59;
+  --silver: #c7c7cc;
 }
 
 @font-face {
@@ -66,4 +66,5 @@ body::-webkit-scrollbar-track {
   background: #8fa0f5;
 }
 `
+
 export default GlobalStyle
