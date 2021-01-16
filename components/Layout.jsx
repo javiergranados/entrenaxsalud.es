@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import Head from 'next/head'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import StyledLayout from './styles/Layout'
 import 'animate.css'
 
 function Layout({ title, children }) {
@@ -10,15 +11,15 @@ function Layout({ title, children }) {
       <Head>
         <title>{`${title} | Entrena X Salud`}</title>
       </Head>
-      <div className="flex flex-col w-screen h-screen text-base bg-ghostWhite font-regular">
-        <div className="relative flex flex-col flex-1 w-full overflow-hidden">
+      <StyledLayout>
+        <div className="layout-container">
           <Navbar />
-          <main className="flex-1 overflow-auto">
-            <div className="w-full max-w-5xl px-4 pt-5 pb-10 mx-auto my-0 md:px-8">{children}</div>
+          <main>
+            <div className="main-container">{children}</div>
           </main>
           <Footer />
         </div>
-      </div>
+      </StyledLayout>
     </>
   )
 }
