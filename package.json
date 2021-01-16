@@ -7,6 +7,7 @@
   "keywords": [
     "react",
     "next",
+    "bootstrap",
     "javascript",
     "website"
   ],
@@ -26,10 +27,11 @@
     "next": "^10.0.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^3.0.0",
     "eslint": "^7.13.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^6.15.0",
@@ -38,10 +40,8 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "postcss-preset-env": "^6.7.0",
     "prettier": "^2.1.2",
     "stylelint": "^13.8.0",
-    "stylelint-config-standard": "^20.0.0",
-    "tailwindcss": "^1.9.6"
+    "stylelint-config-standard": "^20.0.0"
   }
 }
