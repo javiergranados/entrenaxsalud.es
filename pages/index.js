@@ -1,9 +1,12 @@
+import styled from 'styled-components'
+
+const Paragraph = styled.p`
+  font-size: 2rem;
+  color: var(--cobaltBlue);
+`
+
 function IndexPage() {
-  return (
-    <>
-      <p className="text-3xl text-cobaltBlue">Página de inicio</p>
-    </>
-  )
+  return <Paragraph>Página de inicio</Paragraph>
 }
 
 export async function getStaticProps() {
