@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
+import StyledNavbar from './styles/Navbar'
 
 function Navbar() {
   const router = useRouter()
@@ -15,47 +16,27 @@ function Navbar() {
   }
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-6 border-b shadow-lg bg-cultured">
-      <div className="items-center flex-shrink-0 hidden mr-6 rounded-full cursor-pointer lg:flex">
+    <StyledNavbar menu={(showMenu && 'show') || 'hide'}>
+      <div className="image">
         <a href="/" onClick={handleLink}>
           <Image src="/img/logo.svg" alt="logo" width={70} height={70} />
         </a>
       </div>
-      <div className="block lg:hidden">
-        <button
-          type="button"
-          className="flex items-center px-3 py-2 transition-colors duration-300 ease-in-out border rounded text-cobaltBlueDark border-cobaltBlueDark focus:outline-none"
-          onClick={handleClick}
-        >
-          <svg
-            className={`${showMenu ? 'hidden' : 'block'} h-6 w-6`}
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
+      <div className="hamburger">
+        <button type="button" onClick={handleClick}>
+          <svg className="uno" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
-          <svg
-            className={`${showMenu ? 'block' : 'hidden'} h-6 w-6`}
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
+          <svg className="dos" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
       </div>
-      <div
-        className={`${
-          showMenu ? 'flex' : 'hidden'
-        } flex-grow w-full lg:flex lg:items-center lg:w-auto lg:flex-row flex-col font-semi text-lg`}
-      >
+      <div className="navbar__options">
         <a
           href="/"
           onClick={handleLink}
-          className={`block navbar__button mt-2 lg:hidden${(router.pathname === '/' && ' selected') || ''}`}
+          className={`navbar__button home${(router.pathname === '/' && ' selected') || ''}`}
         >
           INICIO
         </a>
@@ -81,7 +62,7 @@ function Navbar() {
           CONTACTO
         </a>
       </div>
-    </nav>
+    </StyledNavbar>
   )
 }
 
