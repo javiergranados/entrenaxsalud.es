@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-// items-center  hidden mr-6 rounded-full cursor-pointer lg: flex;flex-shrink-0hiddenmr-6rounded-fullcursor-pointerlg
-
 export default styled.nav`
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +90,7 @@ export default styled.nav`
     margin-top: 0.5rem;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 769px) {
     .hamburger {
       display: none;
     }

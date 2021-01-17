@@ -1,4 +1,4 @@
-import Plans from '../components/plans/Plans'
+import Plans from '../components/plans'
 
 export async function getStaticProps() {
   return {
