@@ -60,10 +60,26 @@ body::-webkit-scrollbar-track {
   background-color: #bccadc;
 }
 
+.container {
+  margin-bottom: 100px;
+}
+
 ::selection {
   color: #fff;
   text-shadow: none;
   background: #8fa0f5;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 980px;
+  }
 }
 `
 
