@@ -84,12 +84,6 @@ export default styled.div`
     }
   }
 
-  @media (max-width: 425px) {
-    .container {
-      padding-top: 13vh;
-    }
-  }
-
   @media (max-width: 320px) {
     .price-button {
       border-radius: 30px;
