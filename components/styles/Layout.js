@@ -24,16 +24,9 @@ export default styled.div`
 
       .main-container {
         width: 100%;
-        max-width: 64rem;
-        padding: 1.25rem 2rem;
+        padding: 1.25rem 0;
         margin: 0 auto;
       }
-    }
-  }
-
-  @media (max-width: 768px) {
-    .main-container {
-      padding: 1.25rem 1rem;
     }
   }
 `
