@@ -1,9 +1,15 @@
 import PropTypes from 'prop-types'
+import { useCallback } from 'react'
 import StyledCard from './Card.styles'
 
 function Card({ plan, type, height, mainColor, priceColor }) {
+  const handleClick = useCallback(() => {
+    // eslint-disable-next-line
+    window.location.assign('info@entrenaxsalud.es')
+  }, [])
+
   return (
-    <StyledCard height={height} mainColor={mainColor} priceColor={priceColor}>
+    <StyledCard height={height} mainColor={mainColor} priceColor={priceColor} onClick={handleClick}>
       <div className="header">
         <div className="text-center content">
           <span className="name">{plan.name}</span>
@@ -18,7 +24,7 @@ function Card({ plan, type, height, mainColor, priceColor }) {
         <span>Clases personalizadas</span>
       </div>
       <div className="text-center moreInfo">
-        <span>MÁS INFORMACIÓN</span>
+        <span>MÁS INFORMACIÓN 👉🏻</span>
       </div>
     </StyledCard>
   )
