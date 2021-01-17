@@ -1,13 +1,4 @@
-import styled from 'styled-components'
-
-const Paragraph = styled.p`
-  font-size: 2rem;
-  color: var(--cobaltBlue);
-`
-
-function ContactPage() {
-  return <Paragraph>Página de contacto</Paragraph>
-}
+import Contact from '../components/contact'
 
 export async function getStaticProps() {
   return {
@@ -17,4 +8,4 @@ export async function getStaticProps() {
   }
 }
 
-export default ContactPage
+export default Contact
