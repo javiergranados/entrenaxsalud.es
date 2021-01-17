@@ -1,7 +1,7 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import LazyImage from '../LazyImage'
-import StyledSocial from './styles/Social'
+import LazyImage from '../common/LazyImage'
+import StyledSocial from './Social.styles'
 
 function Social() {
   return (

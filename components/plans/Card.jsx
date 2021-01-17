@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import StyledCard from './styles/Card'
+import StyledCard from './Card.styles'
 
 function Card({ plan, type, height, mainColor, priceColor }) {
   return (

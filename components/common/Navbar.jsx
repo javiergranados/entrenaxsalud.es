@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
-import StyledNavbar from './styles/Navbar'
+import StyledNavbar from './Navbar.styles'
 
 function Navbar() {
   const router = useRouter()
