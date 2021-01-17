@@ -5,6 +5,7 @@ export default styled.nav`
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  z-index: 10;
   padding: 1.5rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   background-color: var(--cultured);

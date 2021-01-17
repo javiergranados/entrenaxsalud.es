@@ -1,13 +1,4 @@
-import styled from 'styled-components'
-
-const Paragraph = styled.p`
-  font-size: 2rem;
-  color: var(--cobaltBlue);
-`
-
-function TrainingPage() {
-  return <Paragraph>Página de entrenamientos</Paragraph>
-}
+import Training from '../components/training'
 
 export async function getStaticProps() {
   return {
@@ -17,4 +8,4 @@ export async function getStaticProps() {
   }
 }
 
-export default TrainingPage
+export default Training
