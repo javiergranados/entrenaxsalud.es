@@ -6,6 +6,23 @@ import Col from 'react-bootstrap/Col'
 import Card from './Card'
 import StyledPlans from './styles/Plans'
 
+const trainingPlans = [
+  {
+    name: 'FREE',
+    monthPrice: '0,00 €',
+    yearPrice: '0,00 €',
+  },
+  {
+    name: 'BASIC',
+    monthPrice: '0,99 €',
+    yearPrice: '8,99 €',
+  },
+  {
+    name: 'PRO',
+    monthPrice: '9,99 €',
+    yearPrice: '59,99 €',
+  },
+]
 function Plans({ colorScheme }) {
   const [selected, setSelected] = useState('month')
 
@@ -34,24 +51,16 @@ function Plans({ colorScheme }) {
               PAGO ANUAL
             </button>
             <div className="plans">
-              <Card
-                type={selected}
-                height={colorScheme[0].height}
-                mainColor={colorScheme[0].mainColor}
-                priceColor={colorScheme[0].priceColor}
-              />
-              <Card
-                type={selected}
-                height={colorScheme[1].height}
-                mainColor={colorScheme[1].mainColor}
-                priceColor={colorScheme[1].priceColor}
-              />
-              <Card
-                type={selected}
-                height={colorScheme[2].height}
-                mainColor={colorScheme[2].mainColor}
-                priceColor={colorScheme[2].priceColor}
-              />
+              {trainingPlans.map((plan, i) => (
+                <Card
+                  key={plan.name}
+                  plan={plan}
+                  type={selected}
+                  height={colorScheme[i].height}
+                  mainColor={colorScheme[i].mainColor}
+                  priceColor={colorScheme[i].priceColor}
+                />
+              ))}
             </div>
           </Col>
         </Row>

@@ -44,13 +44,13 @@ export default styled.div`
 
   .price-button:active,
   .price-button:hover {
-    color: var(--white);
+    color: white;
     background: var(--silver);
   }
 
   .price-button.selected {
     background: var(--glaucous);
-    color: var(--white);
+    color: white;
   }
 
   .price-button.selected:active,
