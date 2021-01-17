@@ -1,11 +1,18 @@
+import Met from './Met'
+import Rec from './Rec'
+import Opo from './Opo'
+import Ep from './Ep'
 import StyledTraining from './Training.styles'
 
-function Social() {
+function Training() {
   return (
     <StyledTraining>
-      <p>Training page</p>
+      <Met />
+      <Rec />
+      <Opo />
+      <Ep />
     </StyledTraining>
   )
 }
 
-export default Social
+export default Training
