@@ -48,13 +48,6 @@ function Navbar() {
           ENTRENAMIENTOS
         </a>
         <a
-          href="/planes"
-          onClick={handleLink}
-          className={`navbar__button${(router.pathname === '/planes' && ' selected') || ''}`}
-        >
-          PLANES
-        </a>
-        <a
           href="/contacto"
           onClick={handleLink}
           className={`navbar__button${(router.pathname === '/contacto' && ' selected') || ''}`}
