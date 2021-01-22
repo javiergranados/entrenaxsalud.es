@@ -1,13 +1,4 @@
-import styled from 'styled-components'
-
-const Paragraph = styled.p`
-  font-size: 2rem;
-  color: var(--cobaltBlue);
-`
-
-function IndexPage() {
-  return <Paragraph>Página de inicio</Paragraph>
-}
+import Home from '../components/home'
 
 export async function getStaticProps() {
   return {
@@ -17,4 +8,4 @@ export async function getStaticProps() {
   }
 }
 
-export default IndexPage
+export default Home
