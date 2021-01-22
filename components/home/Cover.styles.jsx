@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 export default styled(Row)`
   min-height: 320px;
   border-radius: 30px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   background: url('/img/home/cover.webp');
   background-position: center;
   background-repeat: no-repeat;

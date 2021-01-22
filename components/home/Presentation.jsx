@@ -6,12 +6,7 @@ import StyledPresentation from './Presentation.styles'
 function Presentation() {
   return (
     <StyledPresentation>
-      <Col lg="12" sm="12" className="order-1 align-self-center">
-        <Row className="text-center justify-content-center">
-          <Image src="/img/home/presentation.webp" alt="Quiénes somos" width={1920} height={811} />
-        </Row>
-      </Col>
-      <Col lg="12" sm="12" className="order-2 align-self-center">
+      <Col lg="12" sm="12" className="align-self-center">
         <Row className="text-center justify-content-center">
           <Col>
             <h3>Quiénes somos</h3>
@@ -32,6 +27,11 @@ function Presentation() {
               <q>¿PORQUÉ LUCHAR CONTRA LA ENFERMEDAD SI PUEDES PREVENIRLA?</q>
             </p>
           </Col>
+        </Row>
+      </Col>
+      <Col lg="12" sm="12" className="align-self-center">
+        <Row className="text-center justify-content-center">
+          <Image src="/img/home/presentation.webp" alt="Quiénes somos" width={1920} height={811} />
         </Row>
       </Col>
     </StyledPresentation>
