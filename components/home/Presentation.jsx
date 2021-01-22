@@ -1,6 +1,6 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import LazyImage from '../common/LazyImage'
+import Image from 'next/image'
 import StyledPresentation from './Presentation.styles'
 
 function Presentation() {
@@ -8,7 +8,7 @@ function Presentation() {
     <StyledPresentation>
       <Col lg="12" sm="12" className="order-1 align-self-center">
         <Row className="text-center justify-content-center">
-          <LazyImage src="/img/home/presentation.webp" className="photo" alt="Quiénes somos" />
+          <Image src="/img/home/presentation.webp" alt="Quiénes somos" width={1920} height={811} />
         </Row>
       </Col>
       <Col lg="12" sm="12" className="order-2 align-self-center">

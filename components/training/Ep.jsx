@@ -1,6 +1,6 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import LazyImage from '../common/LazyImage'
+import Image from 'next/image'
 import StyledSection from './Section.styles'
 
 function Met() {
@@ -8,7 +8,7 @@ function Met() {
     <StyledSection className="flex-row-reverse">
       <Col lg="6" sm="12" className="order-1 align-self-center">
         <Row className="text-center justify-content-center">
-          <LazyImage src="/img/training/ep.webp" className="photo" alt="Entrenamiento E+P" />
+          <Image src="/img/training/ep.webp" alt="Entrenamiento E+P" width={1450} height={1120} />
         </Row>
       </Col>
       <Col lg="6" sm="12" className="order-2 align-self-center">

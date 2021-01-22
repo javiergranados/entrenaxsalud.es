@@ -1,6 +1,6 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import LazyImage from '../common/LazyImage'
+import Image from 'next/image'
 import StyledSection from './Section.styles'
 
 function Opo() {
@@ -8,7 +8,7 @@ function Opo() {
     <StyledSection>
       <Col lg="6" sm="12" className="order-1 align-self-center">
         <Row className="text-center justify-content-center">
-          <LazyImage src="/img/training/opo.webp" className="photo" alt="Entrenamiento OPO" />
+          <Image src="/img/training/opo.webp" alt="Entrenamiento OPO" width={1280} height={918} />
         </Row>
       </Col>
       <Col lg="6" sm="12" className="order-2 align-self-center">

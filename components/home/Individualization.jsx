@@ -1,6 +1,6 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import LazyImage from '../common/LazyImage'
+import Image from 'next/image'
 import StyledSection from './Section.styles'
 
 function Individualization() {
@@ -8,7 +8,7 @@ function Individualization() {
     <StyledSection>
       <Col lg="6" sm="12" className="order-1 align-self-center">
         <Row className="text-center justify-content-center">
-          <LazyImage src="/img/home/individualization.webp" className="photo" alt="Entrenamiento personal" />
+          <Image src="/img/home/individualization.webp" alt="Entrenamiento personal" width={1430} height={1000} />
         </Row>
       </Col>
       <Col lg="6" sm="12" className="order-2 align-self-center">

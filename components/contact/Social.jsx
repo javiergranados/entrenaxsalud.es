@@ -1,6 +1,6 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import LazyImage from '../common/LazyImage'
+import Image from 'next/image'
 import StyledSocial from './Social.styles'
 
 function Social() {
@@ -9,7 +9,7 @@ function Social() {
       <Row>
         <Col lg="6" sm="12" className="order-1 align-self-center">
           <Row className="text-center justify-content-center">
-            <LazyImage src="/img/contact.jpg" className="photo" alt="profile" />
+            <Image src="/img/contact.jpg" alt="profile" width={392} height={349} />
           </Row>
         </Col>
         <Col lg="6" sm="12" className="order-2 align-self-center">

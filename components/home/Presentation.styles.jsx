@@ -4,10 +4,6 @@ import Section from './Section.styles'
 export default styled(Section)`
   .order-1 {
     margin-bottom: 40px;
-
-    img {
-      max-width: 70%;
-    }
   }
 
   q {

@@ -13,13 +13,9 @@ export default styled(Row)`
     color: var(--cobaltBlueDark);
   }
 
-  img {
-    max-width: 100%;
-  }
-
   @media (max-width: 768px) {
-    .photo {
-      margin-bottom: 30px;
+    h3 {
+      margin-top: 20px;
     }
   }
 `

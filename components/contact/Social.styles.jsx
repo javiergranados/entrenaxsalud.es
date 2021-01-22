@@ -25,8 +25,8 @@ export default styled(Container)`
   @media (max-width: 768px) {
     margin-top: 50px;
 
-    .photo {
-      margin-bottom: 30px;
+    h3 {
+      margin-top: 20px;
     }
   }
 `
