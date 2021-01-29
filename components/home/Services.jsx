@@ -10,9 +10,9 @@ function Services() {
           <Col>
             <h3>Servicios</h3>
             <p>
-              Servicios Con nuestros servicios, algunos de los objetivos son mejorar la calidad de vida y la condición
-              física de todas las personas que apuesten por nosotros, para ello ofrecemos un servicio combinado de
-              entrenamiento físico y nutrición.
+              Con nuestros servicios, algunos de los objetivos son mejorar la calidad de vida y la condición física de
+              todas las personas que apuesten por nosotros, para ello ofrecemos un servicio combinado de entrenamiento
+              físico y nutrición.
               <br />
               <br />
               No obstante, nuestra forma de trabajar radica en la ética de nuestra profesión, educadores físicos, cuyo
