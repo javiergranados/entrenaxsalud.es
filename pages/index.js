@@ -1,10 +1,4 @@
-function IndexPage() {
-  return (
-    <>
-      <p className="text-3xl text-cobaltBlue">Próximamente...</p>
-    </>
-  )
-}
+import Home from '../components/home'
 
 export async function getStaticProps() {
   return {
@@ -14,4 +8,4 @@ export async function getStaticProps() {
   }
 }
 
-export default IndexPage
+export default Home
