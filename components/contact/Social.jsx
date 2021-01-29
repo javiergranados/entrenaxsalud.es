@@ -19,7 +19,12 @@ function Social() {
               <p>Puedes encontrarme en todas las redes sociales o enviarme un correo, ¡como prefieras!</p>
               <Row className="text-center justify-content-center">
                 <Col lg="3" md="4" sm="4" xs="4" className="mt-3 icon">
-                  <a title="Facebook" href="https://www.facebook.com/israel.lopezrios" target="_blank" rel="noreferrer">
+                  <a
+                    title="Facebook"
+                    href="https://www.facebook.com/EntrenaXSalud.iloprio/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <svg className="icon" width="50" height="50" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M18.768,7.5H14.5V5.595 c0-0.896,0.594-1.105,1.012-1.105s2.988,0,2.988,0V0.548l-4.329-0.013c-3.927,0-4.671,2.938-4.671,4.82V7.5h-3v4h3 c0,5.212,0,12,0,12h5c0,0,0-6.85,0-12h3.851L18.768,7.5z" />
                     </svg>
