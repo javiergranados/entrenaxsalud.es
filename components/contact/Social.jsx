@@ -9,7 +9,7 @@ function Social() {
       <Row>
         <Col lg="6" sm="12" className="order-1 align-self-center">
           <Row className="text-center justify-content-center">
-            <Image src="/img/contact.jpg" alt="profile" width={392} height={349} />
+            <Image src="/img/contact.jpg" alt="profile" width={1600} height={1600} />
           </Row>
         </Col>
         <Col lg="6" sm="12" className="order-2 align-self-center">
