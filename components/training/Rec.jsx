@@ -16,7 +16,7 @@ function Rec() {
           <Col>
             <h3>Entrenamiento REC</h3>
             <p>
-              <q>La vida no se detiene, no lo hagas tu tampoco (Anónimo).</q>
+              <q>La vida no se detiene, no lo hagas tú tampoco (Anónimo)</q>
               Entrenamiento enfocado a la prevención y/o rehabilitación de lesiones, re-educación postural, dolor de
               espalda... Con la posibilidad de contar con un profesional en fisioterapia.
             </p>

@@ -18,7 +18,7 @@ function Met() {
             <p>
               <q>
                 Hay dos tipos de persona con una enfermedad... los que se quieren curar, y los que quieren que les curen
-                (Anónimo).
+                (Anónimo)
               </q>
               Nosotros trabajamos por y para los primeros. Este programa de entrenamiento está enfocado a la prevención
               o mejora de alguna enfermedad, ya sea metabólica, cardiovascular, motora... Todo acompañado de un correcto

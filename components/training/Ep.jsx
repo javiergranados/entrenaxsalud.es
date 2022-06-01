@@ -16,7 +16,7 @@ function Met() {
           <Col>
             <h3>Entrenamiento E+P</h3>
             <p>
-              <q>El parto es la única cita a ciegas en el que conocerás al amor de tu vida (Anónimo).</q>
+              <q>El parto es la única cita a ciegas en el que conocerás al amor de tu vida (Anónimo)</q>
               Entrenamiento destinado a mujeres embarazadas y post-parto. La ciencia, así como la ACOG, recomiendan a
               las mujeres gestantes llevar una vida activa. Nosotros ponemos a disposición de estas mujeres un
               entrenamiento personalizado y asistido desde el momento que quieran empezarlo hasta el post-parto.
