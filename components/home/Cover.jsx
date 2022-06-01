@@ -9,7 +9,7 @@ function Cover() {
         <Row className="text-center justify-content-center">
           <Col>
             <h1>Entrena X Salud</h1>
-            <h3>Aprende a moverte, aprende a entrenar</h3>
+            <h3>Moverte es importante, moverte bien es necesario</h3>
           </Col>
         </Row>
       </Col>

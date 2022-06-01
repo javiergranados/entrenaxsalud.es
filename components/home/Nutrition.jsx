@@ -8,7 +8,7 @@ function Nutrition() {
     <StyledSection className="flex-row-reverse">
       <Col lg="6" sm="12" className="order-1 align-self-center">
         <Row className="text-center justify-content-center">
-          <Image src="/img/home/nutrition.webp" alt="Nutrición" width={1430} height={1000} />
+          <Image src="/img/home/nutrition.png" alt="Nutrición" width={819} height={821} />
         </Row>
       </Col>
       <Col lg="6" sm="12" className="order-2 align-self-center">
@@ -16,9 +16,9 @@ function Nutrition() {
           <Col>
             <h3>Nutrición</h3>
             <p>
-              El valor del ejercicio físico es alto en todos los aspectos, pero insuficiente sin unos correctos hábitos
-              de vida y una correcta alimentación. Por eso ofrecemos la opción de esta importante ayuda, ofertando un
-              seguimiento nutricional, consejos y recomendaciones, planificación de dietas, etc.
+              El valor del ejercicio físico es alto en todos los aspectos, pero, en ocasiones, insuficiente sin unos
+              correctos hábitos de vida y una alimentación apropiada. Por eso ofrecemos la opción de esta importante
+              ayuda, ofertando un seguimiento nutricional, consejos y recomendaciones, etc.
             </p>
           </Col>
         </Row>
