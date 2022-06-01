@@ -5,7 +5,7 @@ import StyledSection from './Section.styles'
 
 function Met() {
   return (
-    <StyledSection className="flex-row-reverse">
+    <StyledSection>
       <Col lg="6" sm="12" className="order-1 align-self-center">
         <Row className="text-center justify-content-center">
           <Image src="/img/training/ep.png" alt="Entrenamiento E+P" width={1080} height={1080} />
