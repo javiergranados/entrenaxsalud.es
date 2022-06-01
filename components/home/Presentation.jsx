@@ -12,9 +12,9 @@ function Presentation() {
             <h3>Quiénes somos</h3>
             <p>
               La sociedad avanza tecnológicamente, llevándonos a hábitos de vida menos activos, y la medicina facilita
-              la longevidad, lo que lleva a la población a VIVIR MÁS AÑOS...¿Pero con posibilidad de disfrutarlos?. Toda
-              experiencia, todo momento, todo tiempo vivido tienen un precio, y los pagamos con la salud, para bien o
-              para mal.
+              la longevidad, lo que lleva a la población a VIVIR MÁS AÑOS, pero... ¿Con posibilidad de disfrutarlos?
+              Toda experiencia, todo momento, todo tiempo vivido tiene un precio, y los pagamos con la salud, para bien
+              o para mal.
               <br />
               <br />
               Nuestro empeño es que disfrutes de todos y cada uno de los años de TU VIDA. Para hacerlo posible, debemos
@@ -22,7 +22,7 @@ function Presentation() {
               como la obesidad, la hipertensión, la diabetes II, el cáncer...
               <br />
               <br />
-              Nos preocupamos por mejorar LO QUE DE VERDAD IMPORTA, TU SALUD , mediante el ejercicio físico adaptado e
+              Nos preocupamos por mejorar LO QUE DE VERDAD IMPORTA, TU SALUD, mediante el ejercicio físico adaptado e
               individualizado; con entrenamientos basados en la evidencia científica.
               <q>¿PORQUÉ LUCHAR CONTRA LA ENFERMEDAD SI PUEDES PREVENIRLA?</q>
             </p>

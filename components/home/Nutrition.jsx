@@ -16,9 +16,9 @@ function Nutrition() {
           <Col>
             <h3>Nutrición</h3>
             <p>
-              El valor del ejercicio físico es alto en todos los aspectos, pero insuficiente sin unos correctos hábitos
-              de vida y una correcta alimentación. Por eso ofrecemos la opción de esta importante ayuda, ofertando un
-              seguimiento nutricional, consejos y recomendaciones, planificación de dietas, etc.
+              El valor del ejercicio físico es alto en todos los aspectos, pero, en ocasiones, insuficiente sin unos
+              correctos hábitos de vida y una alimentación apropiada. Por eso ofrecemos la opción de esta importante
+              ayuda, ofertando un seguimiento nutricional, consejos y recomendaciones, etc.
             </p>
           </Col>
         </Row>

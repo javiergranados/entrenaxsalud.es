@@ -16,9 +16,11 @@ function Individualization() {
           <Col>
             <h3>Entrenamiento personal</h3>
             <p>
-              Programación de entrenamiento enfocado a la mejora de la condición física y la calidad de vida para
-              personas sanas (mejora de la condición física, embarazo, preoperatorio...) o con patologías (hipertensión,
-              diabetes, cáncer, obesidad, fragilidad, post-parto, post-operatorio...)
+              Planificación de un programa de entrenamiento enfocado a la mejora de la salud y la calidad de vida. Con
+              objetivos como la mejora de la condición física, seguimiento del embarazo, entrenamiento preoperatorio…
+              <br />
+              Especialista en entrenamiento para personas con patologías (hipertensión, diabetes, cáncer, obesidad,
+              fragilidad, post-parto, post-operatorio...)
             </p>
           </Col>
         </Row>

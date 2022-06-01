@@ -10,18 +10,20 @@ function Services() {
           <Col>
             <h3>Servicios</h3>
             <p>
-              Con nuestros servicios, algunos de los objetivos son mejorar la calidad de vida y la condición física de
-              todas las personas que apuesten por nosotros, para ello ofrecemos un servicio combinado de entrenamiento
-              físico y nutrición.
+              Nuestra forma de trabajar radica en la ética de nuestra profesión, educadores físicos, cuyo OBJETIVO
+              PRINCIPAL es educar y enseñar a nuestros clientes a realizar ejercicio físico correctamente y tomar
+              hábitos de vida saludables, dejando cada vez más autonomía a nuestros clientes, siempre asesorados y
+              guiados individualmente.
               <br />
               <br />
-              No obstante, nuestra forma de trabajar radica en la ética de nuestra profesión, educadores físicos, cuyo
-              OBJETIVO PRINCIPAL es educar y enseñar a nuestros clientes a realizar ejercicio físico correctamente y
-              tomar hábitos de vida saludables, dejando cada vez más independencia al entrenado.
+              Con nuestros servicios, pretendemos otros objetivos como mejorar la calidad de vida y la condición física,
+              ayudar a controlar o prevenir patologías, facilitar la iniciación y continuidad de una vida activa y
+              saludable, entre otras cosas. Para ello ofrecemos un servicio combinado de entrenamiento físico y
+              asesoramiento nutricional.
               <br />
               <br />
-              Queremos aportar también la posibilidad de trabajar con fisioterapeuta, podólogo, psicólogo deportivo y
-              enfermero, en este aspecto nos encontramos en crecimiento.
+              Queremos aportar también la posibilidad de trabajar con fisioterapeuta, podólogo y psicólogo deportivo,
+              aunque en este aspecto nos encontramos en crecimiento.
             </p>
           </Col>
         </Row>
