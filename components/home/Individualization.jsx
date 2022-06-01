@@ -8,7 +8,7 @@ function Individualization() {
     <StyledSection>
       <Col lg="6" sm="12" className="order-1 align-self-center">
         <Row className="text-center justify-content-center">
-          <Image src="/img/home/individualization.webp" alt="Entrenamiento personal" width={1430} height={1000} />
+          <Image src="/img/home/individualization.png" alt="Entrenamiento personal" width={1080} height={1080} />
         </Row>
       </Col>
       <Col lg="6" sm="12" className="order-2 align-self-center">
