@@ -31,7 +31,7 @@ function Presentation() {
       </Col>
       <Col lg="12" sm="12" className="align-self-center">
         <Row className="text-center justify-content-center">
-          <Image src="/img/home/presentation.png" alt="Quiénes somos" width={1080} height={1080} />
+          <Image src="/img/home/presentation.png" alt="Quiénes somos" width={1080} height={427} />
         </Row>
       </Col>
     </StyledPresentation>
