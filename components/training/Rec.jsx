@@ -8,7 +8,7 @@ function Rec() {
     <StyledSection className="flex-row-reverse">
       <Col lg="6" sm="12" className="order-1 align-self-center">
         <Row className="text-center justify-content-center">
-          <Image src="/img/training/rec.webp" alt="Entrenamiento REC" width={1450} height={920} />
+          <Image src="/img/training/rec.png" alt="Entrenamiento REC" width={1080} height={1080} />
         </Row>
       </Col>
       <Col lg="6" sm="12" className="order-2 align-self-center">

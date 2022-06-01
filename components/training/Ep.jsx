@@ -8,7 +8,7 @@ function Met() {
     <StyledSection className="flex-row-reverse">
       <Col lg="6" sm="12" className="order-1 align-self-center">
         <Row className="text-center justify-content-center">
-          <Image src="/img/training/ep.webp" alt="Entrenamiento E+P" width={1450} height={1120} />
+          <Image src="/img/training/ep.png" alt="Entrenamiento E+P" width={1080} height={1080} />
         </Row>
       </Col>
       <Col lg="6" sm="12" className="order-2 align-self-center">
